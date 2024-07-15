@@ -1,0 +1,228 @@
+.main-div{
+    width: 100%;
+    background-color: rgb(247, 247, 247); 
+}
+
+/* header section css part  */
+
+.sub-navigation{
+    background-color: #032353; 
+    padding: 2px 5%;
+    text-align: right;
+    color: white;
+}
+
+.main-navigation{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 10px gray;
+    padding: 20px 5%;
+}
+
+.main-navigation button{  
+    font-weight: 600;
+    border: none;
+    background: transparent;
+    padding: 7px 15px;    
+    border-radius: 20px;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+.main-navigation button:hover{  
+    background-color: #ddebff;
+}
+
+.main-navigation button.highlight{  
+    background-color: #124ea7;
+    color: white; 
+    padding-inline: 20px;
+}
+
+/* banner section css part  */
+
+.main-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5% 0px 5%;
+} 
+
+.content-banner h1{
+    font-weight: 800;
+    padding: 10px 0px;
+    font-size: 50px;
+}
+
+.timer-div{
+    background-color: white;
+    border-radius: 20px; 
+    font-size: 70px;
+    width: 700px;
+    font-weight: 700;
+    color: #0b3575;
+    display: flex; 
+    padding: 10px 50px;
+    margin: 20px 0px;
+    justify-content: space-around; 
+    box-shadow: -4px 5px 15px rgb(238, 238, 238);
+}
+
+.timer-div span{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.timer-div span b{
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.register-btn-div{ 
+    padding: 0px 5% 40px 5%;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 5% 50px 5%;
+}
+
+.card-container .card-content{ 
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(214, 214, 214);
+    height: 200px; 
+    width: 250px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-container .card-content:first-child{ 
+    background: linear-gradient(45deg, #0b3575,#0f59c9);
+}
+
+.card-container .card-content:last-child{ 
+    flex:1;
+    align-items: start;
+    padding: 40px 50px;
+}
+
+.body-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%; 
+}
+
+.body-section .content-div{
+    max-width: 700px;
+}
+
+.body-section h2 {
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 15px; 
+    margin-bottom: 20px; 
+}
+
+.body-section h2::before{ 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90px; 
+    border-bottom: 3px solid #032353;
+}
+
+.body-section ul{
+    list-style-type: " ✔️   ";
+}
+
+.body-section ul li{
+    font-size: 20px;
+}
+
+.form-div{
+    background-color: white;
+    border: 2px solid rgb(214, 214, 214);
+    padding: 40px 60px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(214, 214, 214);
+}
+
+.form-div input{
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    padding: 10px 0px;
+    margin: 10px 0;
+}
+
+.form-div input[type="button"]{
+    background-color: #0b3575;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.form-div .checkbox-container{
+    display: flex; 
+    margin: 20px 0;
+}
+
+.form-div .checkbox-container input{  
+    width: 50px;    
+}
+
+footer{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 20px;
+}
+
+.sub-footer{
+    background: url("/image/banner1.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 5%;
+    color: white;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding-top: 50px;
+}
+.social-btn{
+    display: flex;
+    justify-content: end;
+    padding: 20px 5%;
+    gap: 10px;
+}
+.social-btn button{
+    border-radius: 50px;
+    border: 1px solid rgb(224, 224, 224);
+    width: 50px;
+    background-color: white;
+    height: 50px;
+    box-shadow: 5px 5px 15px rgb(214, 214, 214);
+}
+.copy-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+}
