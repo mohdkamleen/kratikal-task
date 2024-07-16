@@ -336,9 +336,9 @@ footer {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 550px) {
     .form-div{
-        width: 100%;
+        width: 90%;
     }
     img{
         width: 80%;
