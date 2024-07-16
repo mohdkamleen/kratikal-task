@@ -257,9 +257,8 @@ footer {
 
     .main-banner,
     .body-section {
-        flex-direction: column;
+        flex-direction: column; 
     }
-
 
     .banner1-img {
         display: none;
@@ -334,5 +333,20 @@ footer {
 @media (min-width: 1500px) {
     .timer-div {
         width: 700px;
+    }
+}
+
+@media (max-width: 600px) {
+    .form-div{
+        width: 100%;
+    }
+    img{
+        width: 80%;
+    }
+    .timer-div{
+        font-size: 50px;
+    } 
+    .main-banner .content-banner h1{
+        font-size: 30px;
     }
 }
