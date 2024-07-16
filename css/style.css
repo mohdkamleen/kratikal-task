@@ -349,4 +349,9 @@ footer {
     .main-banner .content-banner h1{
         font-size: 30px;
     }
+    .sub-footer{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
 }
