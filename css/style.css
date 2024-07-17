@@ -109,6 +109,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+}
+
+.card-container .duo-card .card-content:last-child::after,
+.card-container .single-card .card-content::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #032353;
+    bottom: 0;
+    right: 0;
+    border-bottom-right-radius: 20px;
 }
 
 .card-container .duo-card {
