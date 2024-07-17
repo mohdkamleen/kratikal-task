@@ -41,7 +41,7 @@
 }
 
 .main-navigation .close-btn {
-    position: fixed;
+    position: absolute;
     top: 55px;
     display: none;
     right: 30px;
