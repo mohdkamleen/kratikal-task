@@ -17,9 +17,9 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 1px 1px 10px gray;
-    padding: 20px 5%; 
+    padding: 20px 5%;
 }
- 
+
 .main-navigation button {
     font-weight: 600;
     border: none;
@@ -167,6 +167,11 @@
     font-size: 20px;
 }
 
+.body-section.form{
+    background-color: rgb(236, 236, 236);
+    padding: 50px 5%;
+}
+
 .form-div {
     background-color: white;
     border: 2px solid rgb(214, 214, 214);
@@ -205,8 +210,7 @@
 
 footer {
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+    flex-direction: column; 
 }
 
 .sub-footer {
@@ -225,7 +229,16 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: start;
-    padding-top: 50px;
+    padding-top: 50px; 
+}
+
+.footer-content{
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+.footer-content:last-child{
+    background-color: rgb(236, 236, 236);
 }
 
 .social-btn {
@@ -257,7 +270,7 @@ footer {
 
     .main-banner,
     .body-section {
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     .banner1-img {
@@ -279,6 +292,7 @@ footer {
     .main-navigation menu {
         display: none;
     }
+
     .main-menu.show {
         position: fixed;
         width: 100%;
@@ -337,19 +351,23 @@ footer {
 }
 
 @media (max-width: 550px) {
-    .form-div{
+    .form-div {
         width: 90%;
     }
-    img{
+
+    img {
         width: 80%;
     }
-    .timer-div{
+
+    .timer-div {
         font-size: 50px;
-    } 
-    .main-banner .content-banner h1{
+    }
+
+    .main-banner .content-banner h1 {
         font-size: 30px;
     }
-    .sub-footer{
+
+    .sub-footer {
         flex-direction: column;
         gap: 20px;
         padding: 20px;
